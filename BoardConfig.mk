@@ -71,13 +71,15 @@ BOARD_RAMDISK_OFFSET       := 0x07c08000
 BOARD_KERNEL_TAGS_OFFSET   := 0x0bc08000
 BOARD_KERNEL_SECOND_OFFSET := 0xbff88000
 
-#BOARD_KERNEL_SEPARATED_DTBO  := true
-#BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+BOARD_KERNEL_SEPARATED_DTBO  := true
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_PAGESIZE        := 2048
 BOARD_KERNEL_IMAGE_NAME      := Image.gz
 BOARD_KERNEL_CMDLINE         := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_RAMDISK_USE_LZ4        := true
-BOARD_PREBUILT_DTBOIMAGE     := $(DEVICE_PATH)/prebuilts/dtbo.img
+# BOARD_PREBUILT_DTBOIMAGE     := $(DEVICE_PATH)/prebuilts/dtbo.img
+BOARD_CUSTOM_DTBOIMG_MK := $(DEVICE_PATH)/dtbo/dtbo.mk
+
 
 BOARD_MKBOOTIMG_ARGS    += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_MKBOOTIMG_ARGS    := --kernel_offset $(BOARD_KERNEL_OFFSET)
@@ -204,6 +206,3 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit the proprietary files
 include vendor/samsung/a22/BoardConfigVendor.mk
-
-
-
