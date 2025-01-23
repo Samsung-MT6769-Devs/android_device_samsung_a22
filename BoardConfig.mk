@@ -13,4 +13,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+## Inherit from the common tree
+include device/samsung/a22-common/BoardConfigCommon.mk
+
+## Inherit from the proprietary configuration
+include vendor/samsung/a22/BoardConfigVendor.mk
+
 DEVICE_PATH := device/samsung/a22
+
+## APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
