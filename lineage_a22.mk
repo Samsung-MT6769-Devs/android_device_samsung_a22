@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-## Inherit from a21s device
+## Inherit from a22 device
 $(call inherit-product, device/samsung/a22/device.mk)
 
 ## Boot Animation
