@@ -105,12 +105,12 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6768
 TARGET_RECOVERY_PIXEL_FORMAT := ABGR_8888
 
 # SELinux
-BOARD_MTK_SEPOLICY_IS_LEGACY := true
-include device/mediatek/sepolicy_vndr/SEPolicy.mk
+# BOARD_MTK_SEPOLICY_IS_LEGACY := true
+# include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
-SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+# SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+# SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
+# BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 ## TODO : Add SEPolicy.
 
 # Verified Boot
