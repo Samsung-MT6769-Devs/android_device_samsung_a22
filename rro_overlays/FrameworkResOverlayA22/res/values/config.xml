@@ -142,13 +142,8 @@
         <item>468</item>
         <item>515</item>
         <item>563</item>
-        <item>610</item>
-        <item>658</item>
-        <item>705</item>
-        <item>753</item>
-        <item>776</item>
-        <item>800</item>
-        <item>800</item>
+        <item>600</item>
+        <item>600</item>
     </integer-array>
 
     <!-- Array of light sensor lux values to define our levels for auto backlight brightness support.
@@ -185,15 +180,6 @@
         <item>2000</item>
         <item>2999</item>
         <item>3000</item>
-        <item>4000</item>
-        <item>5000</item>
-        <item>6000</item>
-        <item>7000</item>
-        <item>8000</item>
-        <item>9000</item>
-        <item>10000</item>
-        <item>20000</item>
-        <item>40000</item>
     </integer-array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
@@ -566,127 +552,6 @@
         <item>363</item>
         <item>364</item>
         <item>365</item>
-        <item>366</item>
-        <item>367</item>
-        <item>368</item>
-        <item>369</item>
-        <item>370</item>
-        <item>371</item>
-        <item>372</item>
-        <item>373</item>
-        <item>374</item>
-        <item>375</item>
-        <item>376</item>
-        <item>377</item>
-        <item>378</item>
-        <item>379</item>
-        <item>380</item>
-        <item>381</item>
-        <item>382</item>
-        <item>383</item>
-        <item>384</item>
-        <item>385</item>
-        <item>386</item>
-        <item>387</item>
-        <item>388</item>
-        <item>389</item>
-        <item>390</item>
-        <item>391</item>
-        <item>392</item>
-        <item>393</item>
-        <item>394</item>
-        <item>395</item>
-        <item>396</item>
-        <item>397</item>
-        <item>398</item>
-        <item>399</item>
-        <item>400</item>
-        <item>401</item>
-        <item>402</item>
-        <item>403</item>
-        <item>404</item>
-        <item>405</item>
-        <item>406</item>
-        <item>407</item>
-        <item>408</item>
-        <item>409</item>
-        <item>410</item>
-        <item>411</item>
-        <item>412</item>
-        <item>413</item>
-        <item>414</item>
-        <item>415</item>
-        <item>416</item>
-        <item>417</item>
-        <item>418</item>
-        <item>419</item>
-        <item>420</item>
-        <item>421</item>
-        <item>422</item>
-        <item>423</item>
-        <item>424</item>
-        <item>425</item>
-        <item>426</item>
-        <item>427</item>
-        <item>428</item>
-        <item>429</item>
-        <item>430</item>
-        <item>431</item>
-        <item>432</item>
-        <item>433</item>
-        <item>434</item>
-        <item>435</item>
-        <item>436</item>
-        <item>437</item>
-        <item>438</item>
-        <item>439</item>
-        <item>440</item>
-        <item>441</item>
-        <item>442</item>
-        <item>443</item>
-        <item>444</item>
-        <item>445</item>
-        <item>446</item>
-        <item>447</item>
-        <item>448</item>
-        <item>449</item>
-        <item>450</item>
-        <item>451</item>
-        <item>452</item>
-        <item>453</item>
-        <item>454</item>
-        <item>455</item>
-        <item>456</item>
-        <item>457</item>
-        <item>458</item>
-        <item>459</item>
-        <item>460</item>
-        <item>461</item>
-        <item>462</item>
-        <item>463</item>
-        <item>464</item>
-        <item>465</item>
-        <item>466</item>
-        <item>467</item>
-        <item>468</item>
-        <item>469</item>
-        <item>470</item>
-        <item>471</item>
-        <item>472</item>
-        <item>473</item>
-        <item>474</item>
-        <item>475</item>
-        <item>476</item>
-        <item>477</item>
-        <item>478</item>
-        <item>479</item>
-        <item>480</item>
-        <item>481</item>
-        <item>482</item>
-        <item>483</item>
-        <item>484</item>
-        <item>485</item>
-        <item>486</item>
     </integer-array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
@@ -1060,129 +925,7 @@
         <item>596.1877</item>
         <item>597.65393</item>
         <item>599.4868</item>
-        <item>600.95306</item>
-        <item>602.78595</item>
-        <item>604.2522</item>
-        <item>606.085</item>
-        <item>607.55133</item>
-        <item>609.38416</item>
-        <item>610.85046</item>
-        <item>612.3167</item>
-        <item>614.14954</item>
-        <item>615.61584</item>
-        <item>617.44867</item>
-        <item>618.915</item>
-        <item>620.7478</item>
-        <item>622.21405</item>
-        <item>624.04694</item>
-        <item>625.5132</item>
-        <item>627.34607</item>
-        <item>628.8123</item>
-        <item>630.27856</item>
-        <item>632.11145</item>
-        <item>633.5777</item>
-        <item>635.4106</item>
-        <item>636.87683</item>
-        <item>638.70966</item>
-        <item>640.17596</item>
-        <item>642.0088</item>
-        <item>643.4751</item>
-        <item>644.94135</item>
-        <item>646.7742</item>
-        <item>648.2405</item>
-        <item>650.0733</item>
-        <item>651.5396</item>
-        <item>653.37244</item>
-        <item>654.8387</item>
-        <item>656.6716</item>
-        <item>658.1378</item>
-        <item>659.6041</item>
-        <item>661.43695</item>
-        <item>662.90326</item>
-        <item>664.7361</item>
-        <item>666.20233</item>
-        <item>668.0352</item>
-        <item>669.50146</item>
-        <item>671.3343</item>
-        <item>672.8006</item>
-        <item>674.6334</item>
-        <item>676.09973</item>
-        <item>677.566</item>
-        <item>679.3988</item>
-        <item>680.8651</item>
-        <item>682.69794</item>
-        <item>684.16425</item>
-        <item>685.9971</item>
-        <item>687.4633</item>
-        <item>689.2962</item>
-        <item>690.76245</item>
-        <item>692.22876</item>
-        <item>694.0616</item>
-        <item>695.52783</item>
-        <item>697.3607</item>
-        <item>698.82697</item>
-        <item>700.6598</item>
-        <item>702.1261</item>
-        <item>703.9589</item>
-        <item>705.42523</item>
-        <item>706.8915</item>
-        <item>708.72437</item>
-        <item>710.1906</item>
-        <item>712.02344</item>
-        <item>713.48975</item>
-        <item>715.3226</item>
-        <item>716.7889</item>
-        <item>718.6217</item>
-        <item>720.08795</item>
-        <item>721.55426</item>
-        <item>723.3871</item>
-        <item>724.8534</item>
-        <item>726.6862</item>
-        <item>728.15247</item>
-        <item>729.98535</item>
-        <item>731.4516</item>
-        <item>733.2845</item>
-        <item>734.75073</item>
-        <item>736.58356</item>
-        <item>738.04987</item>
-        <item>739.5161</item>
-        <item>741.349</item>
-        <item>742.81525</item>
-        <item>744.6481</item>
-        <item>746.1144</item>
-        <item>747.9472</item>
-        <item>749.4135</item>
-        <item>751.24634</item>
-        <item>752.7126</item>
-        <item>754.1789</item>
-        <item>756.0117</item>
-        <item>757.478</item>
-        <item>759.31085</item>
-        <item>760.7771</item>
-        <item>762.61</item>
-        <item>764.07623</item>
-        <item>765.9091</item>
-        <item>767.37537</item>
-        <item>768.8416</item>
-        <item>770.6745</item>
-        <item>772.14075</item>
-        <item>773.97363</item>
-        <item>775.4399</item>
-        <item>777.2727</item>
-        <item>778.739</item>
-        <item>780.57184</item>
-        <item>782.03815</item>
-        <item>783.871</item>
-        <item>785.3372</item>
-        <item>786.8035</item>
-        <item>788.63635</item>
-        <item>790.10266</item>
-        <item>791.9355</item>
-        <item>793.40173</item>
-        <item>795.2346</item>
-        <item>796.70087</item>
-        <item>798.5337</item>
-        <item>800</item>
+        <item>600</item>
     </array>
 
     <!-- Array of output values for LCD backlight corresponding to the lux values
@@ -1191,19 +934,20 @@
          The brightness values must be between 0 and 255 and be non-decreasing.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>6</item>
-        <item>6</item>
-        <item>6</item>
-        <item>11</item>
-        <item>79</item>
-        <item>95</item>
-        <item>141</item>
-        <item>183</item>
-        <item>200</item>
-        <item>219</item>
+        <item>13</item>
+        <item>40</item>
+        <item>67</item>
+        <item>88</item>
+        <item>91</item>
+        <item>93</item>
+        <item>96</item>
+        <item>100</item>
+        <item>105</item>
+        <item>119</item>
+        <item>138</item>
+        <item>155</item>
         <item>255</item>
-        <item>255</item>
-        <item>255</item>
+        <item>365</item>
     </integer-array>
 
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
@@ -1213,12 +957,10 @@
          the screen brightness is recalculated. See the config_dynamicHysteresisLuxLevels
          description for how the constraint value is chosen. -->
     <integer-array name="config_dynamicHysteresisBrightLevels">
-        <item>5000</item>
         <item>3000</item>
         <item>3000</item>
-        <item>4000</item>
-        <item>3000</item>
-        <item>3000</item>
+        <item>1500</item>
+        <item>1500</item>
     </integer-array>
 
     <!-- Array of hysteresis constraint values for darkening, represented as tenths of a
@@ -1335,7 +1077,7 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
     -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M 0,0 H -27.42857142857143 V 30.47619047619048 H 27.42857142857143 V 0 H 0 Z @dp
+        M62.05,0l-2.7,0l-2.7,0l-1.4,0.1L53.95,0.2l-1.3,0.2l-1.3,0.2L49.95,0.9l-1.3,0.4l-1.3,0.5l-1.2,0.6L44.95,3 l-1.1,0.7l-1,0.8l-1,0.9l-0.9,1l-0.8,1l-0.7,1.1l-0.7,1.2l-0.6,1.2l-0.5,1.3l-0.4,1.3l-0.4,1.3l-0.5,2.3l-0.4,2.3l-0.4,2.3L34.95,23.9 l-0.6,2.3l-0.7,2.2l-0.4,1.1L32.95,30.6l-0.5,1.1L31.95,32.7c-3.5,7.2-9.3,13.1-16.6,16.6c-17.7,8.5-38.9,1.1-47.4-16.6l-0.5-1.1 l-0.5-1.1l-0.4-1.1l-0.4-1.1l-0.7-2.2l-0.6-2.3l-0.5-2.3l-0.4-2.3l-0.4-2.3l-0.5-2.3l-0.4-1.3l-0.4-1.3L-38.15,11l-0.6-1.2l-0.7-1.2 L-40.05,7.5l-0.8-1l-0.9-1l-1-0.9l-1-0.8L-44.95,3l-1.2-0.6l-1.2-0.6l-1.3-0.5l-1.3-0.4l-1.3-0.3L-52.55,0.4L-53.95,0.2L-55.25,0.1L-56.65,0L-59.35,0 L-62.05,0Z
     </string>
 
     <!-- Whether the display cutout region of the main built-in display should be forced to
@@ -1477,21 +1219,6 @@
         user-set value if toggled by settings so the "Transition animation scale" setting
         should also be hidden if intended to be permanent. -->
     <item name="config_appTransitionAnimationDurationScaleDefault" format="float" type="dimen">0.5</item>
-
-    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
-    <integer-array name="config_udfps_sensor_props" translatable="false" >
-      <!--
-        <item>sensorLocationX</item>
-        <item>sensorLocationY</item>
-        <item>sensorRadius</item>
-      -->
-        <item>540</item>
-        <item>2185</item>
-        <item>100</item>
-    </integer-array>
-
-    <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
-    <integer name="config_udfps_illumination_transition_ms">0</integer>
 
     <string-array name="config_locationExtraPackageNames" translatable="false">
         <!-- ImsService -->
