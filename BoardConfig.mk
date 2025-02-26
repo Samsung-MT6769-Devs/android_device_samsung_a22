@@ -39,7 +39,7 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a55
 
 TARGET_2ND_ARCH                := arm
 TARGET_2ND_ARCH_VARIANT        := armv8-2a
-TARGET_PREBUILT_KERNEL        := device/samsung/a22/prebuilt/Image.gz
+# TARGET_PREBUILT_KERNEL        := device/samsung/a22/prebuilts/Image.gz
 TARGET_2ND_CPU_ABI             := armeabi-v7a
 TARGET_2ND_CPU_ABI2            := armeabi
 TARGET_2ND_CPU_VARIANT         := cortex-a55
